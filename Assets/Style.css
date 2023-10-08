@@ -77,7 +77,7 @@ body {
 }
 .busqueda input {
     background-color: none;
-    width: 201px;
+    width: 190px;
     height: 30px;  
     margin-top: 3px;
     margin-left: 8px;
@@ -103,7 +103,11 @@ body {
     width: 100%;
     height: 74px;
     background: white;
-    padding-top: 20px;
+    padding-top: 20px; 
+}
+.centrar {
+    display: flex;
+    justify-content: center;
 }
 .botonespanel {
     width: 210px;
@@ -112,7 +116,8 @@ body {
     border-color: rgb(118, 13, 4);
     border-radius: 20px;
     float: left;
-    margin-left: 27px;    
+    margin-left: 13px; 
+    margin-right: 13px;    
     background-color: rgb(118, 13, 4);
     cursor: pointer;
     font-family: 'Gentium Plus', serif;
@@ -274,14 +279,22 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 600px;
-    height: 600px;
+    width: 50%;
+    height: 430pt;
     overflow: hidden;
     position: relative;
 }
 .contenidoventana img {
     margin-left: 7px;
     float: left;
+    width: 30%;
+}
+.linea {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    width: 100%;
 }
 .contenidoventana h1 {
     font-family: 'Passion One', cursive;
@@ -290,6 +303,16 @@ body {
     margin-left: 10px;
     font-size: 20pt;
 }
+.contenidoventana h2 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 20pt;
+}
+.contenidoventana h3 {
+    font-family: 'Gentium Plus', serif;
+    color:rgb(118, 13, 4) ;
+    font-size: 14pt;
+}
 .nombrecat {
     font-size: 14pt;
     font-family: 'Gentium Plus', serif;
@@ -297,6 +320,7 @@ body {
     color: white;
     float: left;
     margin-left: 10px;
+    width: 65%;
 }
 .descripecat {
     font-size: 14pt;
@@ -305,19 +329,15 @@ body {
     color: white;
     float: left;
     margin-left: 10px;
-}
-#centrartxt2 {
-    margin-left: 36%;
-    text-align: center;
+    width: 65%;
 }
 .contenidoventana input {
     background-color: none;
-    width: 201px;
+    width: 40%;
     height: 30px;  
     margin-top: 3px;
-    margin-left: 8px;
     border: solid 2px;
-    border-radius: 10px;
+    border-radius: 5px;
     float: left;
     background-color: rgb(118, 13, 4);
     font-family: 'Gentium Plus', serif;
@@ -344,13 +364,282 @@ body {
     color: white;
     text-align: center;
     font-size: 18pt;
-    margin-left: 32%;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 .botonpromo a {
     color: white;
     text-decoration: none;
 }
 .botonpromo:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.botongeneral {
+    width: 170px;
+    height: 32px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+}
+.botongeneral a {
+    color: white;
+    text-decoration: none;
+}
+.botongeneral:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.productoadmin {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 330px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.productoadmin img{
+    height: 165px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.productoadmin h1{
+    font-family: 'Passion One', cursive;
+    font-size: 24pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.productoadmin h2{
+    font-family: 'Gentium Plus', serif;
+    font-size: 16pt;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.añadirproducto {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 330px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.añadirproducto img{
+    height: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.añadirproducto h1{
+    font-family: 'Passion One', cursive;
+    font-size: 30pt;
+    color: #5F5F5F;
+}
+.añadirproducto:hover {
+    background-color:rgb(228, 228, 228);
+    border-color:rgb(169, 20, 6);
+    cursor: pointer;
+}
+.botonesproductosadmin {
+    width: 160px;
+    height: 30px;  
+    border-radius: 10px;   
+    background-color: rgb(118, 13, 4);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-bottom: 9px;
+}
+.botonesproductosadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botonesproductosadmin:hover {
+    background-color:rgb(142, 17, 6) ;
+    text-decoration: underline;
+}
+.botondisponibleadmin {
+    width: 160px;
+    height: 30px;  
+    border-radius: 10px;   
+    background-color: rgb(4, 118, 8);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-bottom: 9px;
+}
+.botondisponibleadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botondisponibleadmin:hover {
+    background-color:black ;
+    text-decoration: underline;
+}
+.botonagotadoadmin {
+    width: 160px;
+    height: 30px;  
+    border-radius: 10px;   
+    background-color: rgb(150, 12, 12);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-bottom: 9px;
+}
+.botonagotadoadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botonagotadoadmin:hover {
+    background-color:black ;
+    text-decoration: underline;
+}
+
+
+
+.editarcategoriacaja {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 450px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.editarcategoriacaja img{
+    height: 340px;
+    margin-top: 20px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.editarcategoriacaja h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+.editarcategoriacaja input{
+    margin-left: 5px;
+    transform: scale(0.7);
+}
+.editarcategoriatitulo{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.editarcategoriatitulo textarea{
+    margin-top: 3px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 36pt;
+    font-family: 'Passion One', 'serif';
+    float: right;
+    height: 54pt;
+}
+.editarcategoriatitulo p{
+    margin-top: 3px;
+    width: 100%;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Passion One', 'serif';
+    float: left;
+    text-align: left;
+}
+.editarcategoriadatos{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.editarcategoriadatosprecio {
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Passion One', 'serif';
+    float: right;
+    height: 28pt;
+}
+.editarcategoriadatosdescrip {
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Passion One', 'serif';
+    float: right;
+    height: 160pt;
+}
+.editarcategoriadatos p{
+    width: 100%;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Passion One', 'serif';
+    float: left;
+    text-align: left;
+}
+.botongeneralgrande {
+    width: 370px;
+    height: 66px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 10px;
+}
+.botongeneralgrande a {
+    color: white;
+    text-decoration: none;
+}
+.botongeneralgrande:hover {
     background-color: rgb(148, 21, 9);
     border: solid 2px;
     border-color: rgb(239, 159, 78);

@@ -25,13 +25,16 @@
             </div>
         </div>
         <div class="panel">
-            <button class="botonespanel" role="button"><a href="/Views/Categorias admin.html" target="_blank">Categorias</a><img src="/Img/category.png"></button>
-            <button class="botonespanel" role="button">Cuidados especiales <img src="/Img/sweeping.png"></button>
-            <button class="botonespanel" role="button">Nuevos pines <img src="/Img/price-sticker.png"></button>
-            <button class="botonespanel" role="button">Personaliza tu pin <img src="/Img/setting-lines.png"></button>
-            <button class="botonespanel" role="button">Chatea con nosotros <img src="/Img/bubble-chat.png"></button>
+            <div class="centrar">
+                <a href="/Views/Categorias admin.html"><button class="botonespanel" role="button">Categorias<img src="/Img/category.png"></button></a>
+                <button class="botonespanel" role="button">Cuidados especiales <img src="/Img/sweeping.png"></button>
+                <button class="botonespanel" role="button">Nuevos pines <img src="/Img/price-sticker.png"></button>
+                <button class="botonespanel" role="button">Personaliza tu pin <img src="/Img/setting-lines.png"></button>
+                <button class="botonespanel" role="button">Chatea con nosotros <img src="/Img/bubble-chat.png"></button>
+            </div>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br>
 <!-- Contenido de la pagina aqui-->
 <div class="ventana">
     <div class="contenidoventana">  
@@ -43,24 +46,30 @@
             <textarea rows="6" cols="30" class="descripecat">Introduce descripcion del producto</textarea>
         </div>
         <div>
-            <h1>_____________________________________________________</h1>
-            <h1 id="centrartxt">Precio categoria</h1>
+            <div class="linea"></div>
+            <div class="centrar">
+                <h2 class="centrar">Precio categoria</h2>
+            </div>
         </div>
-        <div>
-            <h1 id="izquierda">Min:</h1>
-            <h1 id="derecha">Max:</h1>
+        <div class="centrar">
+            <h3>Inserte el precio para todos los productos de la categoria:</h3>
         </div>
-        <div>
-            <input type="text" id="izquierda">
-            <input type="text" id="derecha">
+        <div class="centrar">
+            <input type="text">
         </div>
         <br>
-        <button class="botonpromo" role="button">Añadir promoción</button>
+        <div class="centrar">
+            <button class="botonpromo" role="button">Añadir promoción</button>
+        </div>
+        <br>
+        <div>
+            <button class="botongeneral" id="izquierda" role="button"><a href="../Views/Categorias admin.html">Cancelar</a></button>
+            <button class="botongeneral" id="derecha" role="button"><a href="../Views/Categorias admin.html">Confirmar</a></button>
+        </div>  
     </div>
 </div>
 
     <div class="cuerpo">
-    <br><br><br><br><br><br><br><br><br><br>
     <h1 class="titulo">Categorias</h1>
         <div class="categoriaadmin">
             <img src="/Img/Pines.jpeg">
