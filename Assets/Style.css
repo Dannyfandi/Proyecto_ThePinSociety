@@ -269,7 +269,7 @@ body {
     position: fixed;
     z-index: 999;
 }
-.ventana .contenidoventana {
+.ventana .contenidoventanacat {
     background: rgb(217, 217, 217);
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
@@ -284,7 +284,7 @@ body {
     overflow: hidden;
     position: relative;
 }
-.contenidoventana img {
+.contenidoventanacat img {
     margin-left: 7px;
     float: left;
     width: 30%;
@@ -296,19 +296,19 @@ body {
     border-color: rgb(118, 13, 4);
     width: 100%;
 }
-.contenidoventana h1 {
+.contenidoventanacat h1 {
     font-family: 'Passion One', cursive;
     color:rgb(118, 13, 4) ;
     float: left;
     margin-left: 10px;
     font-size: 20pt;
 }
-.contenidoventana h2 {
+.contenidoventanacat h2 {
     font-family: 'Passion One', cursive;
     color:rgb(118, 13, 4) ;
     font-size: 20pt;
 }
-.contenidoventana h3 {
+.contenidoventanacat h3 {
     font-family: 'Gentium Plus', serif;
     color:rgb(118, 13, 4) ;
     font-size: 14pt;
@@ -331,7 +331,7 @@ body {
     margin-left: 10px;
     width: 65%;
 }
-.contenidoventana input {
+.contenidoventanacat input {
     background-color: none;
     width: 40%;
     height: 30px;  
@@ -645,4 +645,503 @@ body {
     border-color: rgb(239, 159, 78);
     transform: scale(1.1);
     text-decoration: underline;
+}
+
+
+.contenidoventanaprod {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: 345pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaprod img {
+    width: 60%;
+    justify-content: center;
+    margin-top: 5px;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+}
+.contenidoventanaprod h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 5px;
+}
+.contenidoventanaprod input {
+    background-color: none;
+    width: 70%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+.nombreprod {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    width: 65%;
+}
+
+.contenidoventanaeditprod {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: 420pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaeditprod img {
+    width: 60%;
+    justify-content: center;
+    margin-top: 5px;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+}
+.contenidoventanaeditprod h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 5px;
+}
+.contenidoventanaeditprod input {
+    background-color: none;
+    width: 70%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+
+
+.contenidoventanaprom {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    height: 470pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaprom h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    float: left;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaprom h2 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 18pt;
+    margin-bottom: -5px;
+}
+.nombreprom {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    float: left;
+    width: 65%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenidoventanaprom input {
+    background-color: none;
+    width: 35%;
+    height: 30px;  
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+    margin-bottom: 10px;
+}
+.promexist {
+    width: 90%;
+    height: 150px;
+    background-color: rgb(203, 189, 189);
+    border: solid 1px;
+    border-color: black;
+    border-radius: 8px;
+    float: left;
+}
+.contenidoventanaprom h3 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 18pt;
+    margin-left: 30px;
+}
+.promtype {
+    font-size: 10pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(203, 189, 189);
+    color: black;
+    float: left;
+    width: 46%;
+    height: 22px;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: none;
+}
+.promduration {
+    font-size: 10pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(203, 189, 189);
+    color: black;
+    float: left;
+    width: 46%;
+    height: 22px;
+    margin-left: 7px;
+    margin-top: 3px;
+    border: none;
+}
+.promexist img {
+    float: right;
+    height: 22px;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.botoneliminarcat {
+    width: 180px;
+    height: 34px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+.botoneliminarcat a {
+    color: white;
+    text-decoration: none;
+}
+.botoneliminarcat:hover {
+    background-color: rgb(56, 6, 3);
+    border: solid 2px;
+    border-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.contenidoventanaeliminarcat {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: 188pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaeliminarcat h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaeliminarcat h2 {
+    font-family: 'Passion One', cursive;
+    color:black ;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaeliminarcat p {
+    font-family: 'Passion One', cursive;
+    color:black ;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#textimportante {
+    font-family: 'Passion One', cursive;
+    color:rgb(136, 17, 6) ;
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.contenidoventanaeliminarprom {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: 133pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaeliminarprom h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaeliminarprom h2 {
+    font-family: 'Passion One', cursive;
+    color:black ;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.categoriauser {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    width: 42%;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.categoriauser img{
+    height: 320px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.categoriauser h1{
+    font-family: 'Passion One', cursive;
+    font-size: 34pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#derechacat {
+    float: right;
+    margin-right: 40px;
+}
+#izquierdacat {
+    float: left;
+    margin-left: 40px;
+}
+.categoriauser:hover {
+    background-color:rgb(199, 199, 199);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    width: 42%;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+
+.productouser {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 320px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.productouser img{
+    height: 185px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.productouser h1{
+    font-family: 'Passion One', cursive;
+    font-size: 24pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.botonañadircarro {
+    width: 210px;
+    height: 36px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+}
+.botonañadircarro img {
+    height: 27px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+    border: none;
+}
+.botonañadircarro a {
+    color: white;
+    text-decoration: none;
+}
+.botonañadircarro:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.08);
+    text-decoration: underline;
+}
+.precioypromos {
+    width: 13%;
+    background: rgb(187, 175, 175);
+    float: right;
+    border: solid 1px;
+    border-color: rgb(148, 21, 9);
+    border-bottom-left-radius: 10px;
+    font-size: 14pt;
+    font-family: 'Passion One', cursive;
+    color: rgb(121, 16, 7);
+}
+.precioypromos p{
+    margin: auto;
+    float: left;
+    margin-right: 2px;
+}
+.portada {
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portada img{
+    width: 40%;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    float: left;
+    margin-right: 100px;
+}
+.txtportada {
+    float: right;
+    margin-right: 20px;
+}
+.txtportada h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 70pt;
+    color: rgb(128, 58, 116);
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+.txtportada h2 {
+    font-family: 'Gentium Plus', serif;
+    font-size: 38pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+#productosdestacados {
+    font-family: 'Passion One', cursive;
+    font-size: 70pt;
+    color: rgb(128, 58, 116);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.imgproductosdestacados {
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.imgproductosdestacados img{
+    width: 29%;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.imgproductosdestacados h2{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 40pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 1zpx;
+    margin-top: 5px;
+}
+.botonvermasinicio {
+    width: 240px;
+    height: 78px;  
+    border-radius: 10px;   
+    background-color: rgb(118, 13, 4);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.botonvermasinicio a {
+    color: white;
+    text-decoration: none;
+}
+.botonvermasinicio:hover {
+    background-color:rgb(142, 17, 6) ;
+    transform: scale(1.05);
+}
+#agrandaral100 {
+    width: 94%;
+    height: 550px;
+
 }

@@ -37,34 +37,58 @@
     <br><br><br><br><br><br><br><br>
 <!-- Contenido de la pagina aqui-->
 <div class="ventana">
-    <div class="contenidoventanacat">  
-        <div>
-            <img src="/Img/add-image.png">
-            <h1>Nombre de la categoria:</h1>
-            <textarea rows="1" cols="30" class="nombrecat">Introduce nombre</textarea>
-            <h1>Descripcion de la categoria:</h1>
-            <textarea rows="6" cols="30" class="descripecat">Introduce descripcion del producto</textarea>
+    <div class="contenidoventanaprom"> 
+        <h1>Categoria relacionada:</h1> 
+        <div class="centrar">
+            <textarea rows="1" cols="20" class="nombreprom">Pines</textarea>
         </div>
         <div>
-            <div class="linea"></div>
+            <h2 id="izquierda">Cantidad:</h2> 
+            <h2 id="derecha">Precio por unidad:</h2> 
+        </div>
+        <div>
+            <input type="text" id="izquierda">
+            <input type="text" id="derecha">
+        </div>
+        <h1>Duracion de la promocion (opcional):</h1> 
+        <div>
+            <h2 id="izquierda">Desde:</h2> 
+            <h2 id="derecha">Hasta:</h2> 
+        </div>
+        <div>
+            <input type="text" id="izquierda">
+            <input type="text" id="derecha">
+        </div>
+        <div class="centrar">   
+            <a href="../Views/Añadir promocion admin.html"><button class="botonpromo" role="button">Agregar promoción</button></a>
+        </div>
+        <div class="linea"></div>
+        <div>
+            <h3>Promociones existentes:</h3>
             <div class="centrar">
-                <h2 class="centrar">Precio categoria</h2>
+                <div class="promexist">
+                    <div>
+                        <h4 class="promtype">(3 a 5) x $8.000/und</h4>
+                        <h4 class="promduration">Siempre</h4>
+                        <a href="../Views/Eliminar promocion admin.html"><img src="../Img/bxs-x-circle.svg"></a>
+                    </div>
+                    <div>
+                        <h4 class="promtype">(6 a 9) y (11 o mas) x $7.500/und</h4>
+                        <h4 class="promduration">Siempre</h4>
+                        <a href="../Views/Eliminar promocion admin.html"><img src="../Img/bxs-x-circle.svg"></a>
+                    </div>
+                    <div>
+                        <h4 class="promtype">(10) x $7.000/und</h4>
+                        <h4 class="promduration">14/08/23 - 14/11/23</h4>
+                        <a href="../Views/Eliminar promocion admin.html"><img src="../Img/bxs-x-circle.svg"></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="centrar">
-            <h3>Inserte el precio para todos los productos de la categoria:</h3>
-        </div>
-        <div class="centrar">
-            <input type="text">
-        </div>
-        <br>
-        <div class="centrar">
-            <a href="../Views/Añadir promocion from cat.html"><button class="botonpromo" role="button">Añadir promoción</button></a>
-        </div>
         <br>
         <div>
-            <a href="../Views/Categorias admin.html"><button class="botongeneral" id="izquierda" role="button">Cancelar</button></a>
-            <a href="../Views/Categorias admin.html"><button class="botongeneral" id="derecha" role="button">Confirmar</button></a>
+            <a href="../Views/Añadir categoria admin.html"><button class="botongeneral" id="izquierda" role="button">Cancelar</button></a>
+            <a href="../Views/Añadir categoria admin.html"><button class="botongeneral" id="derecha" role="button">Confirmar</button></a>
         </div>  
     </div>
 </div>
