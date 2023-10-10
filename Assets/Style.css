@@ -1,0 +1,1247 @@
+/* 
+Colores:
+#760D04 - rgb(118, 13, 4) Rojo
+#EF9F4E - rgb(239, 159, 78) Amarillo
+#CBBDBD - rgb(203, 189, 189) Gris
+#803A74 - rgb(128, 58, 116) Morado
+
+Fuentes: 
+Hina Mincho: Titulo Principal
+Passion One: Titulo Secundario
+Gentium Plus: Botones
+Scheherazade New: Texto
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Hina+Mincho&family=Passion+One&family=Scheherazade+New&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(203, 189, 189);
+    display: flex;
+    flex-direction: column;
+}
+.cuerpo {
+    flex-grow: 1;
+}
+.seguir {
+    position: fixed;
+    width: 100%;
+}
+.barra {
+    width: 100%;
+    height: 90px;
+    background: rgb(118, 13, 4);
+}
+.barra img {
+    width: 70px;
+    float: left;
+    margin: 11px 10px 18px;
+}
+.barra h2 {
+    float: left;
+    font-size: 22pt;
+    font-family: 'Hina Mincho', serif;
+    color: white;
+    margin-top: 22.5px;
+}
+.logos:hover {
+    transform: scale(1.2);
+}
+.encabezado img {
+    margin-top: 28px;
+    margin-right: 13px;
+    width: 34px;
+    float: right;
+    color: white;
+}
+.busqueda {
+    width: 260px;
+    height: 39px;  
+    margin-top: 27px;
+    margin-right: 5px;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 20px;
+    float: right;
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+}
+.busqueda:hover {
+    transform: scale(1.1);
+    border: solid 2px;
+    border-color: white;
+}
+.busqueda input {
+    background-color: none;
+    width: 190px;
+    height: 30px;  
+    margin-top: 3px;
+    margin-left: 8px;
+    border: none;
+    float: left;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+.busqueda input:focus {
+    border-radius: 10px;
+}
+.busqueda img {
+    width: 25px;
+    float: right;
+    margin-top: 5px;
+}
+.busqueda img:hover {
+    transform: scale(1.1);
+}
+.panel {
+    width: 100%;
+    height: 74px;
+    background: white;
+    padding-top: 20px; 
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+.botonespanel {
+    width: 210px;
+    height: 36px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    float: left;
+    margin-left: 13px; 
+    margin-right: 13px;    
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+}
+.botonespanel img {
+    height: 27px;
+    float: right;
+    margin-right: 10px;
+}
+.botonespanel a {
+    color: white;
+    text-decoration: none;
+}
+.botonespanel:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.piedepagina {
+    height: 140px;
+    background: rgb(118, 13, 4);
+    width: 100%;
+    margin-top: 30px;
+}
+.metodosdepago {
+    width: 100%;
+    height: 80px;
+    background: white;
+    margin-top: 30px;
+}
+.ing {
+    width: 60px;
+    float: left;
+    margin: 11px 10px 18px;
+}
+.metodosdepago h2 {
+    color: rgb(239, 159, 78);
+    font-family: 'Passion One', cursive;
+    font-size: 20pt;
+    float: left;
+    margin-top: 26px;
+}
+.metodosdepago a {
+    color: rgb(239, 159, 78);
+    text-decoration: none;
+}
+.metodosdepago a:hover {
+    color: rgb(177, 89, 30);
+    text-decoration: underline;
+}
+.pago {
+    float: right;
+    height: 60px;
+    margin: 11px 10px 18px;
+}
+#tamañopag {
+    height: 584px;
+    width: 100%;
+}
+.titulo {
+    font-family: 'Passion One', cursive;
+    color: rgb(118, 13, 4);
+    margin-left: 40px;
+    font-size: 35pt;
+}
+.categoriaadmin {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 440px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.categoriaadmin img{
+    height: 195px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.categoriaadmin h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.botonescategoriasadmin {
+    width: 240px;
+    height: 36px;  
+    border-radius: 10px;   
+    background-color: rgb(118, 13, 4);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 15px;
+}
+.botonescategoriasadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botonescategoriasadmin:hover {
+    background-color:rgb(142, 17, 6) ;
+    text-decoration: underline;
+}
+.añadircategoria {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 440px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.añadircategoria img{
+    height: 195px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.añadircategoria h1{
+    font-family: 'Passion One', cursive;
+    font-size: 35pt;
+    color: #5F5F5F;
+}
+.añadircategoria:hover {
+    background-color:rgb(228, 228, 228);
+    border-color:rgb(169, 20, 6);
+    cursor: pointer;
+}
+.ventana {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+.ventana .contenidoventanacat {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 430pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanacat img {
+    margin-left: 7px;
+    float: left;
+    width: 30%;
+}
+.linea {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    width: 100%;
+}
+.contenidoventanacat h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    float: left;
+    margin-left: 10px;
+    font-size: 20pt;
+}
+.contenidoventanacat h2 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 20pt;
+}
+.contenidoventanacat h3 {
+    font-family: 'Gentium Plus', serif;
+    color:rgb(118, 13, 4) ;
+    font-size: 14pt;
+}
+.nombrecat {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    float: left;
+    margin-left: 10px;
+    width: 65%;
+}
+.descripecat {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    float: left;
+    margin-left: 10px;
+    width: 65%;
+}
+.contenidoventanacat input {
+    background-color: none;
+    width: 40%;
+    height: 30px;  
+    margin-top: 3px;
+    border: solid 2px;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+#derecha {
+    float: right;
+    margin-right: 30px;
+}
+#izquierda {
+    float: left;
+    margin-left: 30px;
+}
+.botonpromo {
+    width: 210px;
+    height: 38px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 18pt;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.botonpromo a {
+    color: white;
+    text-decoration: none;
+}
+.botonpromo:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.botongeneral {
+    width: 120px;
+    height: 32px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.botongeneral a {
+    color: white;
+    text-decoration: none;
+}
+.botongeneral:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.productoadmin {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 330px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.productoadmin img{
+    height: 165px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.productoadmin h1{
+    font-family: 'Passion One', cursive;
+    font-size: 24pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.productoadmin h2{
+    font-family: 'Gentium Plus', serif;
+    font-size: 16pt;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.añadirproducto {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 330px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.añadirproducto img{
+    height: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.añadirproducto h1{
+    font-family: 'Passion One', cursive;
+    font-size: 30pt;
+    color: #5F5F5F;
+}
+.añadirproducto:hover {
+    background-color:rgb(228, 228, 228);
+    border-color:rgb(169, 20, 6);
+    cursor: pointer;
+}
+.botonesproductosadmin {
+    width: 160px;
+    height: 30px;  
+    border-radius: 10px;   
+    background-color: rgb(118, 13, 4);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-bottom: 9px;
+}
+.botonesproductosadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botonesproductosadmin:hover {
+    background-color:rgb(142, 17, 6) ;
+    text-decoration: underline;
+}
+.botondisponibleadmin {
+    width: 160px;
+    height: 30px;  
+    border-radius: 10px;   
+    background-color: rgb(4, 118, 8);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-bottom: 9px;
+}
+.botondisponibleadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botondisponibleadmin:hover {
+    background-color:black ;
+    text-decoration: underline;
+}
+.botonagotadoadmin {
+    width: 160px;
+    height: 30px;  
+    border-radius: 10px;   
+    background-color: rgb(150, 12, 12);
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    margin-bottom: 9px;
+}
+.botonagotadoadmin a {
+    color: white;
+    text-decoration: none;
+}
+.botonagotadoadmin:hover {
+    background-color:black ;
+    text-decoration: underline;
+}
+
+
+
+.editarcategoriacaja {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 450px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.editarcategoriacaja img{
+    height: 340px;
+    margin-top: 20px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.editarcategoriacaja h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+.editarcategoriacaja input{
+    margin-left: 5px;
+    transform: scale(0.7);
+}
+.editarcategoriatitulo{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.editarcategoriatitulo textarea{
+    margin-top: 3px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 36pt;
+    font-family: 'Passion One', 'serif';
+    float: right;
+    height: 54pt;
+}
+.editarcategoriatitulo p{
+    margin-top: 3px;
+    width: 100%;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Passion One', 'serif';
+    float: left;
+    text-align: left;
+}
+.editarcategoriadatos{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.editarcategoriadatosprecio {
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Passion One', 'serif';
+    float: right;
+    height: 28pt;
+}
+.editarcategoriadatosdescrip {
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Passion One', 'serif';
+    float: right;
+    height: 160pt;
+}
+.editarcategoriadatos p{
+    width: 100%;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Passion One', 'serif';
+    float: left;
+    text-align: left;
+}
+.botongeneralgrande {
+    width: 370px;
+    height: 66px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 10px;
+}
+.botongeneralgrande a {
+    color: white;
+    text-decoration: none;
+}
+.botongeneralgrande:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+
+.contenidoventanaprod {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaprod img {
+    width: 60%;
+    justify-content: center;
+    margin-top: 5px;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+}
+.contenidoventanaprod h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 5px;
+}
+.contenidoventanaprod input {
+    background-color: none;
+    width: 70%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+.nombreprod {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    width: 80%;
+}
+
+.contenidoventanaeditprod {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaeditprod img {
+    width: 60%;
+    justify-content: center;
+    margin-top: 5px;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+}
+.contenidoventanaeditprod h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 5px;
+}
+.contenidoventanaeditprod input {
+    background-color: none;
+    width: 70%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+
+
+.contenidoventanaprom {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    height: 470pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaprom h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    float: left;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaprom h2 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 18pt;
+    margin-bottom: -5px;
+}
+.nombreprom {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    float: left;
+    width: 65%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenidoventanaprom input {
+    background-color: none;
+    width: 35%;
+    height: 30px;  
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+    margin-bottom: 10px;
+}
+.promexist {
+    width: 93%;
+    height: 150px;
+    background-color: rgb(203, 189, 189);
+    border: solid 1px;
+    border-color: black;
+    border-radius: 8px;
+    float: left;
+}
+.contenidoventanaprom h3 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 18pt;
+    margin-left: 30px;
+}
+.promtype {
+    font-size: 10pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(203, 189, 189);
+    color: black;
+    float: left;
+    width: 45%;
+    height: 22px;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: none;
+}
+.promduration {
+    font-size: 10pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(203, 189, 189);
+    color: black;
+    float: left;
+    width: 45%;
+    height: 22px;
+    margin-left: 7px;
+    margin-top: 3px;
+    border: none;
+}
+.promexist img {
+    float: right;
+    width: 20px;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.botoneliminarcat {
+    width: 180px;
+    height: 34px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+.botoneliminarcat a {
+    color: white;
+    text-decoration: none;
+}
+.botoneliminarcat:hover {
+    background-color: rgb(56, 6, 3);
+    border: solid 2px;
+    border-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.contenidoventanaeliminarcat {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaeliminarcat h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaeliminarcat h2 {
+    font-family: 'Passion One', cursive;
+    color:black ;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaeliminarcat p {
+    font-family: 'Passion One', cursive;
+    color:black ;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#textimportante {
+    font-family: 'Passion One', cursive;
+    color:rgb(136, 17, 6) ;
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.contenidoventanaeliminarprom {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaeliminarprom h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 7px;
+}
+.contenidoventanaeliminarprom h2 {
+    font-family: 'Passion One', cursive;
+    color:black ;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.categoriauser {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    width: 42%;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.categoriauser img{
+    height: 320px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.categoriauser h1{
+    font-family: 'Passion One', cursive;
+    font-size: 34pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#derechacat {
+    float: right;
+    margin-right: 40px;
+}
+#izquierdacat {
+    float: left;
+    margin-left: 40px;
+}
+.categoriauser:hover {
+    background-color:rgb(199, 199, 199);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    width: 42%;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+
+.productouser {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 320px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.productouser img{
+    height: 185px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.productouser h1{
+    font-family: 'Passion One', cursive;
+    font-size: 24pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.botonañadircarro {
+    width: 210px;
+    height: 36px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+}
+.botonañadircarro img {
+    height: 27px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+    border: none;
+}
+.botonañadircarro a {
+    color: white;
+    text-decoration: none;
+}
+.botonañadircarro:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.08);
+    text-decoration: underline;
+}
+.precioypromos {
+    width: 13%;
+    background: rgb(187, 175, 175);
+    float: right;
+    border: solid 1px;
+    border-color: rgb(148, 21, 9);
+    border-bottom-left-radius: 10px;
+    font-size: 14pt;
+    font-family: 'Passion One', cursive;
+    color: rgb(121, 16, 7);
+}
+.precioypromos p{
+    margin: auto;
+    float: left;
+    margin-right: 2px;
+}
+.portada {
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portada2 {
+    float: none;
+    width: 40%;
+    margin-right: 100px;
+}
+.portada img{
+    width: 40%;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    float: left;
+    margin-right: 100px;    
+}
+.portada2 img{
+    width: 100%;
+    float: none;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    margin-right: 100px;
+}
+.portada2 input{
+    width: 70%;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 16pt;
+    color: rgb(118, 13, 4);
+    margin-top: 5px;
+}
+.txtportada {
+    float: right;
+    margin-right: 20px;
+}
+.txtportada h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 70pt;
+    color: rgb(128, 58, 116);
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+.txtportada h2 {
+    font-family: 'Gentium Plus', serif;
+    font-size: 38pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+#productosdestacados {
+    font-family: 'Passion One', cursive;
+    font-size: 70pt;
+    color: rgb(128, 58, 116);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.imgproductosdestacados {
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.imgproductosdestacados img{
+    width: 100%;
+    height: 100%;
+}
+.imgproductosdestacados a{
+    width: 29%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.imgproductosdestacados h2{
+    width: 29%;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 40pt;
+    color: rgb(118, 13, 4);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.imgproductosdestacados input{
+    width: 29%;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 16pt;
+    color: rgb(118, 13, 4);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.contenidoventanaproddesct1 {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 24%;
+    height: 345pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanaproddesct1 img {
+    width: 80%;
+    justify-content: center;
+    margin-top: 5px;
+    border: solid 3px;
+    border-color: rgb(118, 13, 4);
+}
+.contenidoventanaproddesct1 h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 5px;
+}
+.botonañadircarroinicio {
+    width: 210px;
+    height: 36px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;
+    background-color: rgb(118, 13, 4);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+}
+.botonañadircarroinicio img {
+    width: 28px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+    border: none;
+}
+.botonañadircarroinicio a {
+    color: white;
+    text-decoration: none;
+}
+.botonañadircarroinicio:hover {
+    background-color: rgb(148, 21, 9);
+    border: solid 2px;
+    border-color: rgb(239, 159, 78);
+    transform: scale(1.08);
+    text-decoration: underline;
+}
+.botongeneralinicio {
+    width: 80px;
+    height: 30px;  
+    border: solid 2px;
+    border-color: rgb(118, 13, 4);
+    border-radius: 20px;  
+    background-color: rgb(48, 5, 1);
+    cursor: pointer;
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+.botongeneralinicio a {
+    color: white;
+    text-decoration: none;
+}
+.botongeneralinicio:hover {
+    background-color: rgb(69, 8, 3);
+    border: solid 2px;
+    border-color: rgb(120, 65, 10);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
