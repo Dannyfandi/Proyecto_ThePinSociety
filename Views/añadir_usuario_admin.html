@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/Assets/Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon", href="/Img/Logo sombrero rojo sin fondo.png">
+    <title>The Pin Society</title>
+</head>
+<body>
+    <div class="seguir">
+        <div class="barra">
+            <img src="/Img/Logo sombrero blanco sin fondo.png">
+            <h2>The Pin Society</h2>
+            <div class="encabezado">
+                <a href=""><img src="/Img/shopping-cart.png" class="logos"></a>
+                <a href=""><img src="/Img/heart.png" class="logos"></a>
+                <a href=""><img src="/Img/user.png" class="logos"></a>
+                <div class="busqueda">
+                    <input type="text">
+                    <img src="/Img/magnifier.png">
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="centrar">
+                <a href="/Views/Categorias admin.html"><button class="botonespanel" role="button">Categorias<img src="/Img/category.png"></button></a>
+                <button class="botonespanel" role="button">Cuidados especiales <img src="/Img/sweeping.png"></button>
+                <button class="botonespanel" role="button">Nuevos pines <img src="/Img/price-sticker.png"></button>
+                <button class="botonespanel" role="button">Personaliza tu pin <img src="/Img/setting-lines.png"></button>
+                <button class="botonespanel" role="button">Chatea con nosotros <img src="/Img/bubble-chat.png"></button>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+<!-- Contenido de la pagina aqui-->
+<div class="ventana">
+    <div class="contenidoventanacat_">  
+        <div>
+            <img src="/Img/add-image.png">
+            <h1>Nombre de usuario:</h1> 
+            <br><br>
+            <textarea rows="1" cols="30" class="nombrecat">Introduce nombre</textarea>
+            <br><br><br>
+            <h1>Datos del usuario :</h1>
+        </div>
+        <div class="data_admin">
+            <div>   
+                <label for="user">Nombre Completo:</label>
+                <input type="text" id ="register_user"  style="color:white">
+                <br><br>
+                <label for="user"> Número de Telefono : </label>
+                <input type="text" id ="register_user"  style="color:white">
+                <br><br>
+                <label for="user"> Dirección: </label>
+                <input type="text" id="register_user"  style="color:white">
+                <br><br>
+                <label for="user"> Torre/Apto/Casa: </label>
+                <input type="text" id="register_user"  style="color:white">
+                <br><br>
+                <label for="user"> Correo: </label>
+                <input type="email" id="register_user" style="color:white">
+            </div> 
+        </div>
+        <div>
+            <a href="../Views/usuarios_registrados.html"><button class="botongeneral" id="izquierda" role="button">Cancelar</button></a>
+            <a href="../Views/usuarios_registrados.html"><button class="botongeneral" id="derecha" role="button">Confirmar</button></a>
+        </div>  
+    </div>
+</div>
+
+<button class="botongeneral" role="button" ><a href="./cuenta_admin.html">Volver </a></button>
+<div class="registro_admin">
+<h1 > Usuarios Registrados </h1>
+</div>
+<div class="centrar">
+        <div class="usuarios_admin">
+            <img src="/Img/user.png">
+            <h1>Usuario 1234</h1>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/info_perfil_admin.html" target="_blank"> Info Perfil</a></button>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/edit_perfil_dadmin.html">Editar Perfil </a></button>
+        </div>
+        <div class="usuarios_admin">
+            <img src="/Img/user.png">
+            <h1>Usuario 9345</h1>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/info_perfil_admin.html" target="_blank"> Info Perfil</a></button>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/edit_perfil_dadmin.html">Editar Perfil </a></button>        
+        </div>
+        <div class="usuarios_admin">
+            <img src="/Img/user.png">
+            <h1>Usuario 4352</h1>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/info_perfil_admin.html" target="_blank"> Info Perfil</a></button>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/edit_perfil_dadmin.html">Editar Perfil </a></button>      
+        </div>
+    </div>
+    <div class="centrar">
+        <div class="usuarios_admin">
+            <img src="/Img/user.png">
+            <h1>Usuario 0012</h1>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/info_perfil_admin.html" target="_blank"> Info Perfil</a></button>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/edit_perfil_dadmin.html">Editar Perfil </a></button>       
+        </div>
+        <div class="usuarios_admin">
+            <img src="/Img/user.png">
+            <h1>Usuario 1764</h1>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/info_perfil_admin.html" target="_blank"> Info Perfil</a></button>
+            <button class="botonescategoriasadmin" role="button"><a href="../Views/edit_perfil_dadmin.html">Editar Perfil </a></button>
+        </div>
+        <a href="/Views/añadir_usuario_admin.html"><button class="añadircategoria">
+            <img src="/Img/add.png">
+            <h1>Añadir</h1><h1>Usuario</h1>
+        </button></a>
+    </div>
+<!-- Contenido de la pagina acaba aqui-->
+        <div class="piedepagina">
+            <div class="metodosdepago">
+                <img src="/Img/instagram.png" class="ing">
+                <h2><a href="https://www.instagram.com/thepinsociety_/" target="blank">@thepinsociety</a></h2>
+                <img src="/Img/nequi.png" class="pago">
+                <img src="/Img/bancolombia.png" class="pago">
+                <img src="/Img/daviplata.png" class="pago">
+            </div>
+        </div>
+</body>
+</html>
