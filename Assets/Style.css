@@ -1168,7 +1168,7 @@ body {
     flex-direction: column;
     margin: auto;
     width: 24%;
-    height: 345pt;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
@@ -1199,6 +1199,7 @@ body {
     text-align: center;
     font-size: 15pt;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .botonañadircarroinicio img {
     width: 28px;
@@ -1244,4 +1245,600 @@ body {
     border-color: rgb(120, 65, 10);
     transform: scale(1.1);
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categoria_admin img{
+    height: 195px;
+    margin-top: 25px;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.admin {
+    margin-left: 95px;
+    margin-top: 55px;
+}
+
+.formula_admin{
+    margin-right: 8%;
+}
+.modi_datadmin {
+    margin-top: 25px;
+    float:left;
+    display: flex;
+    justify-content: center;
+    font-family: 'Passion One', cursive;
+    font-size: 15pt;
+    color:#760D04;
+}
+.ventana .contenidoventana {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 430pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventana img {
+    margin-left: 7px;
+    float: left;
+    width: 30%;
+}
+.contenidoventana h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    float: left;
+    margin-left: 10px;
+    font-size: 20pt;
+}
+.contenidoventana input {
+    background-color: none;
+    width: 30%;
+    height: 30px;  
+    margin-top: 3px;
+    margin-left: 8px;
+    border: solid 2px;
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+#centro {
+    margin-left: 45%;
+}
+#titulo_ini{
+    text-align: center;
+    font-size: 100;
+    font-weight: 800px;
+    font-family: 'Passion One', 'serif';
+    color:#760D04;
+    text-shadow: -1px -5px 1px #c1803f;
+    text-align: center;
+}
+.usuarios{
+    width: 100%;
+    text-align: left;
+    color:#760D04;
+    font-size: 25px;
+    font-family: 'Passion One', 'serif';
+    background-color: #e4dfdf;
+    margin-top: 8px;
+}
+.usuarios_admin {
+    background-color:rgb(217, 217, 217);
+    border: solid 4px;
+    border-color:rgb(118, 13, 4);
+    height: 440px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;    
+}
+.usuarios_admin img{
+    height: 195px;
+    background-color: black;
+    margin-top: 25px;
+    border: solid 4px;
+    border-radius: 50%;
+    border-color: black;
+}
+.usuarios_admin h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.registrarse {
+    width: 100%;
+    margin-left: 20px;
+    height: 400px;
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(118, 13, 4);
+    font-size: 20px;
+    font-family: 'Scheherazade New', 'serif';
+    float: right;
+}
+.modificar_admin {
+    width: 100%;
+    margin-left: 20px;
+    height: 600px;
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(118, 13, 4);
+    font-size: 20px;
+    font-family: 'Scheherazade New', 'serif';
+    float: left;
+}
+.registro{
+    width: 100%;
+    text-align: left;
+    color:#760D04;
+    font-size: 25px;
+    font-family: 'Passion One', 'serif';
+    background-color: #e4dfdf;
+    height: 300px;
+    margin-top: 8px;
+}
+
+#centrar_usuarios {
+    margin-left: 30px;
+}
+#center{
+    text-align: center;
+    color:rgb(177, 89, 30);
+    font-size: 20px;
+}
+#nombre_user{
+    background-color: rgb(118, 13, 4);
+    width: 400px;
+    border-radius: 15px;
+}
+.data_admin {
+    width: 100%;
+    float:left;
+    color:#760D04;
+    display: flex;
+    font-family: 'Scheherazade New', 'serif';
+    justify-content: center;
+    margin-right: 10%;
+}
+.data_admin input{
+    float:right;
+}
+.formulario{
+    background-color: #e4dfdf;
+    width: 700px;
+    color: white;
+    font-family: 'Passion One', 'serif';
+    font-size: 25px;
+    border-radius: 15px;
+}
+.formulario_admin {
+    margin-left: 40px;
+    background-color: #e4dfdf;
+    width: 1200px;
+    color: white;
+    font-family: 'Passion One', 'serif';
+    font-size: 25px;
+    border-radius: 15px;
+}
+#register_user {
+    background-color: rgb(118, 13, 4);
+    width: 300px;
+    float: right;
+    margin-left:15px;
+    border-radius: 15px;
+}
+
+.acceder{
+    width: 120px;
+    color: white;
+    background-color: #760D04;
+    font-family: 'Passion One', 'serif';
+    font-size: 25px;
+    border-radius: 15px;
+    float:left;
+    margin-left: 40px;
+}
+#letra_diferente {
+    font-family:'Scheherazade New', serif ;
+}
+.correo{
+    width: 180px;
+    color: white;
+    background-color: #760D04;
+    font-family: 'Passion One', 'serif';
+    font-size: 25px;
+    border-radius: 15px;
+}
+.correo a{
+    color: white;
+    text-decoration: none;
+}
+.acceder a{
+    color: white;
+    text-decoration: none;
+}
+.acceder:hover {
+    transform: scale(1.1);
+    background-color: #941f15;
+}
+.titulo_iniciar{
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+.cuenta_usuario {
+    width: 80%;
+    float:left;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cuenta_admin {
+    width: 80%;
+    float:left;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.iniciar_sesion{
+    width: 40%;
+    float:left;
+    color: white;
+    background-color: #760D04;
+    margin: 20px;
+}
+.registro_init{
+    width: 40%;
+    float:left;
+    background-color:rgb(118, 13, 4);
+    color: white;
+    margin: 20px;
+    height: 300px;
+}
+.registro_admin h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.ventana_exito {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+.ventana_exito .contenidoventana_exito {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    height: 115pt;
+    overflow: hidden;
+    position: relative;
+}
+.aviso h5{
+    margin-top: 8px;
+    color:#760D04;
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+
+}
+.aviso h1{
+    text-align: center;
+    color:darkgreen;
+    font-family: 'Passion One', 'serif';
+    font-size: 30pt;
+}
+.datos h5{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: inline;
+}
+.datos h3 {
+    color:#760D04;
+    font-family:'Passion One', cursive;
+    font-size: 20px;
+    display:inline;
+}
+.datos {
+    width: 100%;
+    text-align: left;
+    color:rgb(118, 13, 4);
+    font-size: 30px;
+    font-family: 'Passion One', 'serif';
+    margin:90px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+.datos_desde_admin {
+    width: 100%;
+    text-align: left;
+    color:rgb(118, 13, 4);
+    font-size: 30px;
+    font-family: 'Passion One', 'serif';
+    margin-right:5%;
+    margin-left:5%;
+    margin-top: 5%;
+    margin-bottom: 3px;
+}
+.datos_desde_admin h5{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: inline;
+}
+.datos_desde_admin h3 {
+    color:#760D04;
+    font-family:'Passion One', cursive;
+    font-size: 20px;
+    display:inline;
+}
+.categoriausuario {
+    width: 360px;
+    margin-right: 5%;
+    float: left;
+    text-align: center;
+}
+.categoriausuario img:hover{
+    transform: scale(1.1);
+    backdrop-filter: blur(60px);
+}
+.categoriausuario img{
+    height: 240px;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+}
+.categoriausuario h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.modificar{
+    margin-top: 25px;
+    width: 280px;
+    color: white;
+    background-color: #760D04;
+    font-family: 'Passion One', 'serif';
+    font-size: 25px;
+    border-radius: 15px;
+}
+.centro{
+    margin-top: 25px;
+    width: 280px;
+    color: white;
+    background-color: #760D04;
+    font-family: 'Passion One', 'serif';
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+.centro:hover {
+    transform: scale(1.1);
+    background-color: #941f15;
+}
+.centro a{
+    color: white;
+    text-decoration: none;
+}
+.modificar:hover {
+    transform: scale(1.1);
+    background-color: #941f15;
+}
+.modificar a{
+    color: white;
+    text-decoration: none;
+}
+
+.categoriausuario h1{
+    font-family: 'Passion One', cursive;
+    font-size: 28pt;
+    color: rgb(118, 13, 4);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.titulo_cuentausuario {
+    width: 300px;
+    font-size: 20px;
+    height: 300px;
+    margin-top: 5%;
+    background-color:#e4dfdf;
+    color: white;
+}
+.historial_pedidos {
+    background-color: #760D04;
+    width: 300px;
+} 
+.historial_pedidos h1{
+    font-size: 30px;
+    text-align: center;
+}
+.lista_pedidos {
+    color: #760D04;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.ventana {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+.ventana .contenidoventanacat_ {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 350pt;
+    overflow: hidden;
+    position: relative;
+}
+.contenidoventanacat_ img {
+    margin-left: 10px;
+    float: left;
+    width: 180px;
+    height: auto;
+}
+.contenidoventanacat_ textarea {
+    margin-left: 10px;
+    float: left;
+    width: 52%;
+    height: auto;
+}
+.contenidoventanacat_ h1 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    float: left;
+    margin-left: 10px;
+    font-size: 20pt;
+}
+.contenidoventanacat_ h2 {
+    font-family: 'Passion One', cursive;
+    color:rgb(118, 13, 4) ;
+    font-size: 20pt;
+}
+.contenidoventanacat_ h3 {
+    font-family: 'Gentium Plus', serif;
+    color:rgb(118, 13, 4) ;
+    font-size: 14pt;
+}
+.nombrecat_ {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    float: left;
+    margin-left: 10px;
+    width: 65%;
+}
+.descripecat_ {
+    font-size: 14pt;
+    font-family: 'Gentium Plus', serif;
+    background-color: rgb(118, 13, 4);
+    color: white;
+    float: left;
+    margin-left: 10px;
+    width: 65%;
+}
+.contenidoventanacat_ input {
+    background-color: none;
+    width: 40%;
+    height: 30px;  
+    margin-top: 3px;
+    border: solid 2px;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(118, 13, 4);
+    font-family: 'Gentium Plus', serif;
+    font-size: 12pt;
+    color: white;
+}
+.ventana_cambio_contraseña {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;   
+}
+.ventana_cambio_contraseña .contenidoventana_cambio_contraseña {
+    background: rgb(217, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    border: solid 4px;
+    border-color: rgb(118, 13, 4);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+#cambio_contraseña {
+    font-family: 'Passion One', 'serif';
+    font-size: 20px;
+    color:#760D04;
 }

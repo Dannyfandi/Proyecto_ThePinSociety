@@ -12,12 +12,12 @@
 <body>
     <div class="seguir">
         <div class="barra">
-            <a href= "../Inicio admin.html"><img src="/Img/Logo sombrero blanco sin fondo.png"></a>
+            <img src="/Img/Logo sombrero blanco sin fondo.png">
             <h2>The Pin Society</h2>
             <div class="encabezado">
                 <a href="" target="_blank"><img src="/Img/shopping-cart.png" class="logos"></a>
                 <img src="/Img/heart.png" class="logos">
-                <a href="/Views/cuenta_admin.html"><img src="/Img/user.png" class="logos"></a>
+                <img src="/Img/user.png" class="logos">
                 <div class="busqueda">
                     <input type="text">
                     <img src="/Img/magnifier.png">
@@ -31,59 +31,66 @@
                 <button class="botonespanel" role="button">Nuevos pines <img src="/Img/price-sticker.png"></button>
                 <button class="botonespanel" role="button">Personaliza tu pin <img src="/Img/setting-lines.png"></button>
                 <button class="botonespanel" role="button">Chatea con nosotros <img src="/Img/bubble-chat.png"></button>
-            </div>
+            </div>    
         </div>
     </div>
     <br><br><br><br><br><br><br><br>
 <!-- Contenido de la pagina aqui-->
-<div class="ventana">
-    <div class="contenidoventanaeliminarprom"> 
-        <h1>¡ATENCION!</h1>
-        <h2>¿Seguro que desea eliminar esta promocion?</h2>
-        <div>
-            <a href="../Views/Añadir promocion from admin.html"><button class="botongeneral" id="izquierda" role="button">Cancelar</button></a>
-            <a href="../Views/Añadir promocion from admin.html"><button class="botongeneral" id="derecha" role="button">Confirmar</button></a>
-        </div>  
+<div class = "ventana_exito">
+    <div class="contenidoventana_exito">
+        <div class = "aviso">
+            <h5>Correo enviado </h5> 
+            <h1> EXITOSAMENTE</h1>       
+        </div>
+    <div class="centrar">
+        <button class="botongeneral" role="button"><a href="../Views/registro.html">Confirmar</a></button>    
+        </div>
     </div>
 </div>
 
-
-<br>
-<div class="linea"></div>
-<br>
-<br>
-<br>
-<br>
-    <div class="centrar">
-        <div class = "cuenta_usuario">
-            <div class="categoriausuario">
-                <img src="/Img/Admin_photo.jpeg">
-                <h1>Admin Mariana Urrego </h1>
-            </div>
-            <div class="admin"> 
-                <button class= "modificar"><a href="/Views/admin_camcontra.html">Cambiar contraseña </a></button><br>
-                <br>
-                <button class= "modificar"><a href="/Views/mod_datos_admin.html">Modificar Datos</a></button><br>
-                <br>
-                <button class= "modificar"><a href="/Views/Categorias admin.html"> Categorias </a></button><br>
-                <br>
-            </div>      
-            <div class ="admin">
-                <button class= "modificar"><a href="/Views/Ver Categoria admin.html"> Productos </a></button><br>
-                <br>
-                <button class= "modificar"><a href="/Views/Añadir promocion from admin.html"> Agregar Promoción </a></button><br>
-                <br>
-                <button class= "modificar"><a href="/Views/usuarios_registrados.html"> Usuarios Registrados </a></button><br>
-                <br>
-            </div>
-        </div>
+    <div id="titulo_ini">
+        <h1> ¡Parece que no has iniciado sesión aún!</h1>
     </div>
-    <br>
-<br>
-<br>
-<br>
-<div class="linea"></div>
-<br>
+    <div class = "centrar">
+        <div class="iniciar_sesion">
+            <div class ="titulo_iniciar" >
+                <h1> Iniciar Sesión </h1>
+            </div>
+                <div class = "usuarios">
+                    <div id="centrar_usuarios">   
+                        <label for="user">Nombre de usuario:</label><br>
+                        <input type="text" id ="nombre_user" name="nombre">
+                        <br><br>
+                        <label for="user">Contraseña:</label><br>
+                        <input type="password" id ="nombre_user" name="clave">
+                        <br><br>
+                        <input type="checkbox" id="recordar" name="srecordar">
+                        <label for="user"> Recordarme </label>
+                        <br><br>
+                        <button class= "acceder"><a href="/Inicio.html">Acceder</a></button><br>
+                        <h4 id="center"> ¿Haz olvidado tu Contraseña?</h4><br>
+                    </div> 
+                </div>    
+        </div>
+        <div class="registro_init">
+            <div class ="titulo_iniciar" >
+                <h1> Registrarse </h1>
+            </div>
+                <div class = "registro">
+                    <div id="centrar_usuarios">   
+                        <label for="user">Correo electronico:</label><br>
+                        <input type="text" id ="nombre_user" name="correo">
+                        <br><br>
+                        <div id="letra_diferente">
+                            <label for="user">Un link será enviado a su correo electronico</label><br><br><br>
+                        </div>
+                        <button class= "correo"><a href="/Inicio.html">Enviar Correo </a></button><br>
+                    </div> 
+                </div>  
+            </div>  
+        </div>
+        
+    </div>
 <!-- Contenido de la pagina acaba aqui-->
     <div class="piedepagina">
         <div class="metodosdepago">
